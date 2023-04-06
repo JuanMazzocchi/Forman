@@ -1,0 +1,817 @@
+.navbarPrincipal{
+    padding-left:5%;
+    opacity:0.95;
+    background-color:rgb(34, 77, 153);
+    color:white;
+    max-width: 100%;
+    
+}
+#what{
+	bottom: 5%;
+	width: 10%;
+	/* right: 1%; */
+	position: fixed;
+	/* width: 5% !important; */
+	z-index: 99;
+	right: 1%;
+
+	
+}
+ 
+.wwhat{
+	display: flex;
+	 
+	
+}
+	
+
+
+.dispFlex{
+    display: flex;
+}
+/* 
+.fotoCarousel{
+    height:500px ;
+} */
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+@media screen and (min-width:320px) and (max-width:374px) {
+
+    
+    .carousel-caption > h1{
+        font-size: large;
+
+    }
+    .carousel-caption{
+        width: 80%; 
+     }
+    .fotoCarousel{
+        height:350px ;
+        }
+    #carouselExampleFade{
+        margin-top: 10vh;
+        background-size: contain;
+           
+        }
+       
+}
+
+
+@media screen and (min-width:375px) and (max-width:424px){
+    #carouselExampleFade{
+        /* min-width: 320px;
+        max-width: 425px; */
+        margin-top: 10vh;
+      
+       
+    }
+   .contactoInner{
+    padding-left: 1rem;
+   }
+    .fotoCarousel{
+        height:350px ;
+       
+
+    }
+    #what{
+	    right: 1%;
+    }
+    .carousel-caption{
+        width: 80%;
+        padding-bottom: 5vh; 
+     }
+     .carousel-caption > h1{
+        font-size:medium;
+
+    }
+
+
+}
+
+@media screen and (min-width:425px) and (max-width:767px) {
+  
+    .cards2 { 
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 768px;
+     }
+    .fotoCarousel{
+        height:300px ;
+
+    }
+    .carousel-caption{
+        width: 80%; 
+     }
+    .carousel-caption > h1{
+        font-size: large;
+
+    }
+    #carouselExampleFade{
+        /* min-width: 320px;
+        max-width: 425px; */
+        margin-top: 10rem;
+      
+       
+    }
+   
+    
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .cards2{
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;}
+    
+    .fotoCarousel{
+        height:400px ;
+        }
+    .carousel-caption{
+        width: 70%; 
+         }
+   
+    .carousel-caption > h1{
+        font-size:x-large;
+
+    }
+    .contactoInner{
+        padding-left: 2rem;
+       }
+   
+}
+@media screen and (min-width:1024px) and (max-width:2560px) {
+    .cards2{
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 100%;}
+    .fotoCarousel{
+        height:500px ;
+    }
+    .carousel-caption{
+       width: 50%; 
+    }
+    #carouselExampleFade{
+        width:100%;
+    }
+    .carousel-caption > h1{
+        font-size: xx-large;
+
+    }
+    .contactoInner{
+        padding-left: 2rem;
+       }
+
+}
+html{
+    max-width: 2500px;
+}
+
+
+
+
+
+
+
+
+#ContenedorPorQue{
+    height:250px;
+    color:  rgb(34, 77, 153);
+    justify-content: center;
+}
+#porque{
+    font-size:  50px;
+    padding-top: 100px;
+    text-align: center;
+    
+}
+ 
+
+ 
+.flexDir{
+     display: block;
+     margin: auto;
+}
+
+.card {
+  background-color: white;
+  color:rgb(34, 77, 153);
+  padding: 1rem;
+  height: 20rem;
+  border: none !important;
+}
+.cards {
+    max-width:100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.aliCenter{
+    text-align: center;
+}
+.svg1{
+    padding-bottom: 2rem;
+}
+.cards2{
+    max-width:100%;
+    /* margin: 0 auto; */
+    /* margin-bottom: 5rem; */
+    margin-top: 10rem;
+    display: grid;
+    /* gap: 1rem; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    
+}
+ 
+#T{
+    padding: 0;
+    margin: 0;
+    font-size:3rem;
+    font-weight: bolder;
+}
+#TJ{
+    background-color: rgb(34, 77, 153);
+    color: white;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-bottom: 5rem !important;
+}
+
+
+.card2 {
+    background-color: white;
+    color:rgb(34, 77, 153);
+    padding: 2rem;
+    flex-direction: column;
+    
+    height: 20rem;
+    border: none !important;
+  }
+#envMailbutton{
+    width: 8rem !important;
+    border: none !important;
+    border-radius: 0;
+    color:rgb(34, 77, 153) ;
+    margin-top: 1rem;
+}
+.orden{
+    font-size:xx-large;
+    font-weight: bolder;
+    color:rgb(143, 160, 189)
+}
+.tituloOrden{
+    color:rgb(34, 77, 153);
+    font-size: xx-large;
+    font-weight: bold;
+}
+#cero1{
+    background-color: rgb(239, 229, 225);
+}
+#cero2{
+    background-color: rgb(191, 204, 226);
+}
+#cero4{
+    background-color: rgb(191, 204, 226);
+}
+#contactoHead{
+    font-size: 8vh;
+    font-weight: bolder;
+}
+.contactoInner{
+ 
+  color: white;
+   
+}
+
+#renglon{
+    height: 10px;
+    width: 50%;
+    background-color: white;
+}
+#escucharte{
+    color:rgb(247, 222, 193) ;
+}
+#formContacto{
+    padding: 5rem 5rem 5rem 0rem;
+    width: 95%;
+    
+   
+}
+#sectionContacto{
+    background-color:rgb(34, 77, 153) ;
+    width: 100%;
+        
+}
+.cards3{
+    max-width:100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+@media screen and (min-width:1024px) and (max-width:2600px) {
+    .cards3{
+        grid-template-columns: repeat(2, 1fr);  
+    }
+    .contenedorServiciosUp{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .cards3{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contenedorServiciosUp{
+        display: none;
+    }
+}
+@media screen and (min-width:320px) and (max-width:768px) {
+    .cards3{
+        grid-template-columns: repeat(1, 1fr);
+   }
+   #formContacto{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+     
+   }
+   
+}
+ 
+
+#logoCorto{
+    padding-right: 1vw;
+    padding-top: 10vh;
+    width: 100%;
+}
+footer{
+    height: 5rem;
+    background-color:rgb(34, 77, 153) ;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+#seccionMapa{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+ 
+
+
+#mapa{
+    width: 900px;
+}
+@media screen and (min-width:1024px) and (max-width:2600px) {
+     #mapa{width:100%;}
+     #logoCorto{
+        width: 100%;
+
+     }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #mapa{width: 100%;}}
+@media screen and (min-width:320px) and (max-width:768px) {
+    #mapa{width: 100%;}   
+     #seccionMapa{
+      
+         grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+/* servicios */
+
+.contenedorServicios{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 15vh;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+}
+@media screen and (min-width:320px) and (max-width:768px) {
+   #serviciosHead{
+    font-size:10vh ;
+   }
+
+}
+#servCard01{
+    width: 90%;
+    /* padding-left:15vh; */
+}
+#serviciosHead{
+    font-size: 5vw;
+    padding-left: 5vh;
+    padding-top: 5vh;
+    color:rgb(34, 77, 153)
+    }
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    
+    }
+@media screen and (min-width:320px) and (max-width:768px) {
+    .contenedorServicios{
+        display: none;
+    }
+    .contenedorServiciosUp{
+        margin-top: 5rem;
+    }
+    #serviciosHead{
+        font-size:8vh ;
+        width: 100%;
+    }
+    #serviciosHeadUp{
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
+    .servicios01Up{
+        font-size: 2rem;
+        padding-left: 3rem;
+        color: rgb( 182, 196, 222);
+    }
+    .contabilidadServUp{
+        color:rgb(34, 77, 153);
+        padding-left: 3rem;
+        font-weight: bolder;
+    }
+    .serviciosTxt01Up{
+        text-align:justify;
+       padding-left: 3rem;
+       padding-right: 3rem;
+       color: rgba(34, 66, 122, 0.6);
+
+    }
+    #auditoriaImgUp{
+        padding-right: 0;
+        margin-right: 0;
+        float: right;
+
+    }
+    #servCard02Up{
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .servCard02Up{
+        font-size: 2rem;
+        padding-left: 3rem;
+        color: rgb( 182, 196, 222);
+    }
+    #servTxt02Up{
+        text-align:justify;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        color: rgba(34, 66, 122, 0.6);
+        font-size: 1rem;
+    }
+    #servImgLapiceraUp{
+        position:relative;
+      
+                right: -30px;
+    }
+   
+    
+    #servTxt03Up{
+        text-align:justify;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        color: rgba(34, 66, 122, 0.6);
+        font-size: 1rem;
+    }
+    .contactoInner{
+        padding-left: 2rem;
+    }
+    /* #contactoHead{
+        margin: 0;
+        padding-left:2rem;
+    } */
+       
+         
+      
+    }
+
+.servicios01{
+    color: rgb( 182, 196, 222);
+    font-size:5vw ;
+    padding-left:5vh ;
+    font-weight:bold;
+}
+.contabilidadServ{
+    font-weight: bolder;
+    font-size: 1.5vw;
+    color:rgb(34, 77, 153);
+    padding-left:5vh ;
+    
+}
+.serviciosTxt01{
+    padding-top: 3vh;
+    padding-left:5vh ;
+    font-size: 1.25vw;
+    text-align:justify;
+}
+#servImg01 > img{
+    width: 90%;
+    padding-left: 5vh;
+    
+}
+ 
+ 
+#servImg02{
+    padding-left: 5vh;
+}
+.servicios02{
+    color: rgb( 182, 196, 222);
+    font-size:5vw ;
+    padding-right:5vh ;
+}
+.serviciosTxt02{
+    padding-top: 3vh;
+    padding-right:5vh ;
+    font-size: 1.25vw;
+    text-align:justify;
+    width: 80%;
+}
+ 
+#servCard03{
+    width: 90%;
+    padding-left:15vh;
+}
+#servImg03{
+    width: 90%;
+    padding-left: 15vh;
+}
+ 
+#serImg04{
+    width: 90%;
+    padding-left: 20vh;
+    padding-top: 10vh;
+}
+#servCard04{
+    width: 90%;
+    
+    padding-right: 15vh;
+}
+#servCard05{
+    width: 90%;
+    padding-left: 15vh;
+}
+#servImg05{
+    width: 90%;
+    padding-left: 15vh;
+}
+
+@media screen and (min-width:1024px) and (max-width:2600px) {
+     
+
+     
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #servCard01{
+        width: 90%;
+        padding-left:5vh;
+    }
+    #servImg01 > img{
+      padding-top: 5vh;
+        
+    } 
+    #servCard02{
+        padding-left: 5vh;
+    }
+    #auditoriaServ02{
+        padding-left: 0;
+    } 
+    #servCard03{
+        width: 80%;
+        padding-left:2vh;
+        
+    }
+    #servImg03{
+        
+        padding-left: 5vh;
+    }
+    #servImg03 >img{
+        width: 90%;
+    }
+    #servCard04{
+        width: 100%;
+        padding-right: 5vh;
+         
+    }
+    #serImg04{
+        
+        padding-left: 1vh;
+    }
+    #serImg04 > img{
+        width: 90%;
+    }
+    #servTxt04{
+        /* width:0%; */
+        padding-right: 5vh;
+        margin-right: 0;
+    }
+    #servCard05{
+        width: 90%;
+        padding: 0;
+    }
+    #servTxt05{
+        padding-right: 5vh;
+        margin-right: 0;
+    }
+    #servImg05{
+        padding: 0;
+    }
+    #servImg05 >img{
+        width: 100%;
+        padding-left:5vh;
+    }
+  
+    
+
+
+}
+@media screen and (min-width:320px) and (max-width:768px) {
+    #servCard01{
+        width:100%;
+        padding-left:5vh;
+    }
+    #servTxt01{
+        font-size: small;
+        padding-left: 0.1vh;
+        padding-right: 0.1vh
+
+    }
+    #servImg01 > img{
+      padding-top: 25vh;
+        
+    } 
+    #servCard02{
+        width: 100%;
+        padding-left: 5vh;
+        /* padding-right: 1vh; */
+        margin: 0;
+    }
+    #servImg02{
+        padding: 5vh 0 0 0;
+    }
+    #auditoriaServ02{
+        padding-left: 0;
+    } 
+    #servTxt02{
+        font-size: small;
+        width: 100%;
+    }
+    #servCard03{
+        width: 100%;
+        padding-left:0.5vh;
+        
+    }
+    #servTxt03{
+        font-size: small;
+        padding-right: 1.5vh;
+    }
+    #servImg03{
+        /* width: 10%; */
+        padding-top: 15vh;
+        padding-left: 1vh;
+        
+    }
+    #servImg03 >img{
+        width: 100%
+    }
+    #servCard04{
+        width: 100%;
+        padding-right: 2vh;
+     
+         
+    }
+    #serImg04{
+        
+        padding-left: 1vh;
+    }
+    #serImg04 > img{
+        width: 100%;
+    }
+    #servTxt04{
+        /* width:0%; */
+        padding-right: 1vh;
+        margin-right: 0;
+        font-size: small;
+    }
+    #servCard05{
+        width: 100%;
+        padding: 0;
+    }
+    #servTxt05{
+        padding-right: 1vh;
+        margin-right: 0;
+        font-size: small;
+    }
+    #servImg05{
+        padding: 0;
+    }
+    #servImg05 >img{
+        width: 100%;
+        padding-left:5vh;
+    }
+}
+
+/* quienes somos */
+#somosHead{
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    font-size: 7vh;
+    text-align: center;
+    color: rgb(34, 66, 122);
+
+}
+
+
+.contenedorCards{
+    
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+     
+}
+#cuadradoImg{
+    width: 100%;
+}
+#cuadradoTxt{
+    
+    text-align: center; 
+    flex-direction: column;
+    width: 70%;
+    color: rgb(34, 66, 122);
+    padding-bottom: 2rem;
+}
+ 
+#cuadradoDegree{
+    font-size:x-large;
+}
+#cuadradoDescripcion{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+     
+}
+#cuadradoMail{
+    padding-top: 2rem;
+    font-size: normal;
+    padding-bottom: 2rem;
+}
+#canonTxt{
+    
+    text-align: center; 
+    flex-direction: column;
+    width: 70%;
+    color: rgb(34, 66, 122);
+    padding-bottom: 2rem;
+}
+#canonDegree{
+    font-size:x-large;
+}
+#canonDescripcion{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#canonMail{
+    padding-top: 2rem;
+    font-size: normal;
+    padding-bottom: 2rem;
+}
+#canonImg{
+    width: 100%;
+}
+@media screen and (min-width:1024px) and (max-width:2600px) {
+    #contenedorImgCanonUp{
+        display:none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+   .contenedorCards{
+    grid-template-columns: repeat(1, 1fr);
+   }  
+   #contenedorImgCanonUp{
+    display:block;
+   }
+   #contenedorImgCanon{
+    display: none;
+   }
+    
+}
+@media screen and (min-width:320px) and (max-width:768px) {
+    .contenedorCards{
+        grid-template-columns: repeat(1, 1fr);
+    } 
+    #contenedorImgCanon{
+        display: none;
+    }
+    #contenedorImgCanonUp{
+        display: block;
+    }
+    
+   }
