@@ -30,28 +30,26 @@
   <div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent" style="padding-right:5%;">
     <ul class="navbar-nav align-right  ">
       <li class="nav-item active" >
-        <a class="nav-link" href="/index.html" style="color: white;">Forman <span class="sr-only">(current)</span></a>
+        <a class="nav-link btn" href="#bodyServicios" style="color: white;">Forman <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#porque" style="color: white;">Por qué Forman</a>
+        <a class="nav-link btn" href="#porque" style="color: white;">Por qué Forman</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/servicios.html" style="color: white;">Nuestros Servicios</a>
+        <a class="nav-link btn" id="servicios" style="color: white;">Nuestros Servicios</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="/somos.html" style="color: white;">Quienes Somos</a>
+        <a class="nav-link btn" id="somos"  style="color: white;">Quienes Somos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#formContacto" style="color: white;">Contacto</a>
+        <a class="nav-link btn"  href="#formContacto"  style="color: white;">Contacto</a>
       </li>
-       
-      
     </ul>
- 
-  </div>
+   </div>
+
 </nav>
  
-
+<section id="bodyServicios">
 
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   <ol class="carousel-indicators" >
@@ -173,16 +171,16 @@
     <div class="form-row">
       <div class="form-group col-md-6">
         
-        <input type="email" class="form-control" id="inputNombre" placeholder="Nombre">
+        <input type="text" class="form-control" id="inputNombre" placeholder="Nombre" autocomplete="name">
       </div>
       <div class="form-group col-md-6">
          
-        <input type="password" class="form-control" id="inputEmail" placeholder="E-mail">
+        <input type="email" class="form-control" id="inputEmail" placeholder="E-mail" autocomplete="email">
       </div>
     </div>
     <div class="form-group">
       
-      <input type="text" class="form-control" id="inputTel" placeholder="Telefono ">
+      <input type="text" class="form-control" id="inputTel" placeholder="Telefono " autocomplete="tel">
     </div>
     <div class="form-group">
       <textarea class="form-control" id="inputMensaje" rows="3" placeholder="Mensaje"></textarea>
@@ -209,7 +207,7 @@
   <span>© COPYRIGHT 2023 - Estudio Forman</span>
 </footer>
   
-   
+</section>
  
  
  
